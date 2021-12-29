@@ -1,0 +1,11 @@
+{
+  "todosList" : "Todos List",
+  "language" : "Language",
+  "english" : "English",
+  "arabic" : "Arabic",
+  "mode" : "Mode",
+  "light" : "Light",
+  "dark" : "Dark",
+  "done" : "Done!"
+
+}

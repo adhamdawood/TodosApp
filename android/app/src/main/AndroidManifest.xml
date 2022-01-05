@@ -2,7 +2,7 @@
     package="com.example.todos_app">
    <application
         android:label="todos_app"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/logo">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

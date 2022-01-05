@@ -95,8 +95,8 @@ class _BottomSheetFragmentState extends State<BottomSheetFragment> {
         .then((value) => print("todo Added"))
         .catchError((error) => print("Failed to add todo: $error"))
     .timeout(Duration(seconds: 2),onTimeout: (){
-       listProvider.refreshTodos();
-       Navigator.pop(context);
+      listProvider.refreshTodos();
+      Navigator.pop(context);
       Fluttertoast.showToast(
           msg: "Todo added successfully",
           toastLength: Toast.LENGTH_LONG,

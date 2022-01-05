@@ -127,7 +127,5 @@ class _DetailsOfItemState extends State<DetailsOfItem> {
         .catchError((error) => print("Failed to update user: $error"));
     listProvider.refreshTodos();
   }
-
-
 }
 

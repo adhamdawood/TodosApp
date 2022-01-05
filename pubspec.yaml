@@ -33,9 +33,12 @@ dependencies:
   flutter_slidable: ^1.1.0
   provider: ^6.0.1
   fluttertoast: ^8.0.8
+  shared_preferences: 2.0.0
   flutter_localizations: # Add this line
     sdk: flutter
   intl: ^0.17.0
+  table_calendar: ^3.0.3
+  webview_flutter: any
 
 
 dev_dependencies:

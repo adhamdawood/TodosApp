@@ -32,6 +32,7 @@ class _ListItemState extends State<ListItem> {
            SlidableAction(
              onPressed: (context){
                listProvider.onDeleteButtonClick(widget.todo);
+
              },
               backgroundColor: Color(0xFFFE4A49),
               foregroundColor: Colors.white,
